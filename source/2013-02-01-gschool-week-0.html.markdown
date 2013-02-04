@@ -4,7 +4,7 @@ date: 2013-02-01 13:29 -07:00
 tags: fresh start, nervous excitement
 ---
 
-Week one of gSchool Zero, and what a week it was. A week of firsts:
+Week Zero of gSchool Zero, and what a week it was. A week of firsts:
 
 - First time unemployed
 - First exploration of Denver
