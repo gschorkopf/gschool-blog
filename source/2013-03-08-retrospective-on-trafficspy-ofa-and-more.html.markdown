@@ -1,0 +1,17 @@
+---
+title: Retrospective on TrafficSpy, OfA, and more
+date: 2013-03-08 09:05 -07:00
+tags: trafficspy, obama for america
+---
+
+TrafficSpy was a unique challenge. Neither Bradley nor myself had ever written code in Sinatra, Sequel, or raw SQL before, (not to mention our limited grasp on CSS). I felt like we did a good job dividing up resposibilities between the front end, database to web connection with Sinatra and the back end Ruby and Sequel work. I mostly tackled Sequel, and though we were able to knock out the core work and an extension in campaigns, I still feel like I'm not being OOy enough. Hoping that will come with time. I found that I'd written entire classes of class methods, as opposed to intantiating objects and doing work on them. Now that I have a better grasp on the project, I would have definitely used objects more effectively. 
+
+I would enjoy continuing to use sinatra, as I didn't get a firm handle on all the finer points of the language. I know Sinatra is like a Rails Light, so will be pumped to keep working with that sort of GET/POST framework going forward. I really thought the Sinatra part would be relatively easy, but then we ended up struggling the most with it. Writing tests for sinatra was incredibly difficult, though obviously advantageous to double-check any wonky direction a user might take. 
+
+After the project wrapped, Obama for America presented at the Galvanize space. Harper Reed was an exceptionally funny guy. I can't even image the emotions going into their day to day jobs. Having abandoned their families for an extended period, won an election, received a hug from Barack, and then promptly fired, it had to have been a whirlwind experience. It seemed like their testing was over-the-top thorough (as it obviously should be). There's no way that I have the passion or stamina to commit to an undertaking like that though. The time commitment isn't really the issue - I'm in gSchool, after all - but I just couldn't commit to a candidate like that for any position. 
+
+Back to databases. I don't feel entirely comfortable with them. It was all well and good to use them in a small, isolated project like this, but what about creating a DB for a project that will see the light of day? As Jeff pointed out, even great programmers can fuck up databases. What if you need to manipulate a database in the middle of deployment? Even just using sequel, I can get easily caught up with some of the methods... when we use where, it comes out as a sequel object. Should we .to_a it right then and there in the method? Or wait until we actually need to use it? Does a sequel object hold any value when it's not to_a-ed? 
+
+As for formalized project management, using pivitol tracker or mapping out a project ahead of time, I think there's no way that a "lax" attitude can or should continue. Maybe the harsh reality of not planning will reel it's ugly head during our first group of four project. Maybe communication has just been a bit easier, as we are all here together for 10 hours a day. I was thinking it might be an interesting exerise to work on a paired project where you can't talk in person to your partner (simulating the remote work so many Rubyists love). 
+
+Regardless, I know that SalesStore and Son of Sales Engine and all those projects are not just something you can wing. Especially when four different personalities are working on four different bits of code and four different features. I guess we will come to that fiery inferno when the project crashes and burns. 
