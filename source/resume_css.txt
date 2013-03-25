@@ -2,7 +2,9 @@ body {
   font-family: helvetica;
   background-image: url("../images/background_normal.jpg");
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center top;
+  background-color: #444444;
 }
 h2 {
   text-transform: uppercase;
