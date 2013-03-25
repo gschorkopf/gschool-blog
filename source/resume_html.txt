@@ -7,7 +7,7 @@
   <div class="container_12">
     <div class="grid_12">
       <div class="header">
-        <a href="www.github.com/gschorkopf" target="_blank"><img class="social" src="images/github.png"></img></a>
+        <a href="http://www.github.com/gschorkopf" target="_blank"><img class="social" src="images/github.png"></img></a>
         <a href="#">Geoff Schorkopf</a>
         <a href="#">Roles</a>
         <a href="#">Leadership</a>
