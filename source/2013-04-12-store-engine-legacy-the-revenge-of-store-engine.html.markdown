@@ -1,0 +1,15 @@
+---
+title: Mentors, Legacys, Bad Horror Movies
+date: 2013-04-12 09:56 -06:00
+tags: son of store engine, store engine, mentor
+---
+
+This week has really sped by. gSchool has forayed into many new fields: establishing mentors, multi-tenancy, various hacks, working remotely (oh, Denver April), and more.
+
+On Monday, I had my first 1-on-1 with my mentor, who also happens to be one of my friends. Mike Chipotle (er, Chlipala) and I worked together at Google before he quit to join the initial LivingSocial Hungry Academy class. He currently works at LivingSocial under contract in San Francisco (how I miss that city). He works as a Rubyist, developing and testing various bits, including but not limited to security and authorization/authentication. He's taking a look at my initial StoreEngine project on GitHub, and I hope we will be able to talk caching, background workers, and more soon.
+
+I think that Jeff's decision to pair us is interesting and unique. My journey as a programmer has, in many ways, closely mirrored Mike's. He and I both: worked at Google for about a year and a half, two years. We each got into some minor programming projects in our 20% time, but worked in a fairly banal sales/services job in Google Products with the rest of our core time. Upon hearing he'd gotten into Hungry Academy, he picked up and moved to a new city (as did I with gSchool). As Mike has worked through most of the same projects and had similar experiences, it's cool that we can kick back and talk freely without having to delve into project details. Obviously, the programs are not perfect mirrors, but the similarities I think help us connect as a mentor-mentee pair on an unspoken level.
+
+Mike claimed that he really "hit his stride" around month 3, and that the program was more challenging than not until that point. I, too, am starting to feel a transition hitting - as we get more and more into Rails (and having a strong Ruby courseload to back up our skills), I find that the material is more and more interesting. There's something to be said about "learning the ropes" of a new language. Once you have the grammar and syntax down, all that's left is broadening your vocabulary.
+
+In other weekly recap news, we are working on a new project. I'm grouped with Laura, Erin, and Daniel on this one. Dubbed "Son of Store Engine" - a title that playfully hints at crappy horror movie sequels - the project focuses on working with a legacy codebase to expand a previous project into a app that supports multi-tenancy. Though the routing and organization has been challenging, I feel like our group is making slow/steady progress. I've paired with Laura on most of the multi-tenant stories thus far, and feel like we have a nice flow going. She's helped our pair work through a lot of the complex table relationships, (especially with stores -> userroles -> users), and the two of us have felt the subtle wrath of link_to routes.
