@@ -1,0 +1,25 @@
+---
+title: Solo Dolo and The Future of Geoffrey
+date: 2013-05-31 10:10 -06:00
+tags: independent project, eldoorado, gschool
+---
+
+Welp.
+
+We were assigned an individual project this Tuesday, and I was originally given the task of incorporating one technology and two APIs. Originally, I had the idea of creating a bookmarketlet or Chrome Extension that would generate fantasy sports projections and player stats for any player's name highlighted on a browser window. I had to scrap that idea, simply because the data was not easily available (player stats typically required a premium relationship with the API, and the fantasy sports stats, while attainable, likely wouldn't give me what I wanted - after all, Fantasy Football is out of season and I don't have a legit Fantasy Baseball account). So let's chalk those two days I worked on that project up to research and experience, and move right along.
+
+On Wednesday night I "pivoted" (Franklin shuttered at my use of the phrase, but it's kind of cute, no?) and picked up a new project based on some inspiration from Galvanize herself. In order to get in and out of Galvanize, you need to have a badge or permissions to scan in. Jeff was able to supply me with a text file of badge data from this month from these ins and outs of the Galvanize building. Columns include name of the badger-inner (I call them "entrants"), exact date and time of the clock in, what organization they are associated with, etc. I've built out a relational DB and API that accepts and spits out JSON, and most of a gem wrapper to handle talking to that API. I plan on creating a small ruby app to handle converting the TXT file into JSON through the gem, and then use calls to the API to create a D3 interface to explore this data. Basically, the project is data porn.
+
+The individual experience is definitely new, and not always friendly. I find that pairing is great if you're not confident in what you're doing or if you're learning new things. As a solo dolo, I'm able to handle some topics (creating the AR DB and the gem) surprisingly quickly. However, I think that I'll have to ask for help from others for the D3 bits, which I hope to wrap up this weekend. My goal is to have all my iterations done by Monday, so I can just explore the data from there on. We'll see how that goes.
+
+I feel like I'm actually building my gem using DDD (dream-driven development), which has just been fantastic. I think... if I'm a Entrant object, what cool methods would I want in an ideal world, regardless of what the API spits out? Well I'd want to know their company name, not company id. I'd want to have all their badge in information. I'd want to be able to type in an hour of the day and get all relevant badge scans. Fun stuff.
+
+We're approaching our final seven weeks in the course. I'm definitely going to miss the purely learning environment, but am also excited to see what comes next. I hope to learn a great deal of JavaScript and front end, as that always seems to be the bit of the UX that's missing in our projects. The Ruby/Rails code is fairly clean, but there's no "wow" interface to really set the experience over the top. I'm loving AJAX so far, but want to explore actual web sockets and how to set those bad boys up (rather than, say, polling every minute. I needs my datas now.)
+
+I'm definitely realizing now that the course is coming to a close how many gifted and talented mentors we have, and will not always have. I haven't paired with a lot of folks yet, and need to work up the gumption to ask for help. I need to find a way to keep in contact with all these people - some of the best in the biz - so I can continue to pair with them in my career.
+
+Coming into the program I had an idea of what success looked like. Is it within reach? Or has my goal changed along the way? It feels within reach. I don't know when I turned the corner, but coding suddenly changed from vaguely stringing together phrases and numbers to make magic appear on my screen to understanding the big picture - the model-view-controller, the database relationships, the power of the front end, the power of APIs and good object oriented practices. I'm still not all the way there, but feel good about the art of learning good code.
+
+I mentioned this to Jeff a few times, but I think the primary point of the course (for me, at least), isn't to come out with a great job or even a tangible base of code. Those things are well and good, of course. But I think the most important goal of the course is to have your brain comfortable with learning new things, and learning how to learn coding. The course is a set up for a career, one where you constantly have to learn new technologies. More to come, I'm being cut short by group discussion and some guy named Jason Fried. 
+
+(INTERNET SARCASMS I KNOW WHO HE IS. Did I say I'll miss the guest speakers? Let me iterate.)
